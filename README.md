@@ -7,11 +7,20 @@ I have no affiliation with this project, but I'm tired of manually patching this
 
 ### Requirement for Fedora
 
-```$ sudo dnf install kf5-plasma-devel extra-cmake-modules -y```
+Packages required:
+- `kf5-plasma-devel`
+- `extra-cmake-modules`
 
 ### Requirement for Arch
 
-```sudo pacman -S kde-development-environment-meta```
+Packages required for runtime:
+- `plasma-workspace`
+- `qt5-graphicaleffects`
+
+Packages required for building:
+- `extra-cmake-modules`
+
+Alternatively, you can use the [plasma5-applets-thermal-monitor-git](https://aur.archlinux.org/packages/plasma5-applets-thermal-monitor-git/) AUR package.
 
 ### INSTALLATION
 
@@ -30,10 +39,14 @@ $ sudo make install
 $ cd plasma-applet-thermal-monitor/build/
 $ sudo make uninstall
 ```
+
 or
+
 ```sh
 $ sudo rm -r /usr/share/plasma/plasmoids/org.kde.thermalMonitor
 $ sudo rm /usr/share/kservices5/plasma-applet-org.kde.thermalMonitor.desktop
 ```
+
 ### LICENSE
+
 This project is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/gpl-2.0.html) and is therefore Free Software. A copy of the license can be found in the [LICENSE file](LICENSE).
