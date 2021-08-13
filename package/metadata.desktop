@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Thermal Monitor
+Name=Thermal Monitor2
 Name[sr]=Праћење температуре
 Name[sr@ijekavian]=Праћење температуре
 Name[sr@ijekavianlatin]=Praćenje temperature
@@ -16,7 +16,7 @@ X-KDE-PluginInfo-Email=clearmartin@seznam.cz
 X-KDE-PluginInfo-License=GPL2
 X-KDE-PluginInfo-Name=org.kde.thermalMonitor
 X-KDE-PluginInfo-Version=0.1
-X-KDE-PluginInfo-Website=https://github.com/kotelnik/plasma-applet-thermal-monitor
+X-KDE-PluginInfo-Website=https://github.com/luzfcb/plasma-applet-thermal-monitor
 X-KDE-ServiceTypes=Plasma/Applet
 X-Plasma-API=declarativeappletscript
 X-Plasma-MainScript=ui/main.qml
